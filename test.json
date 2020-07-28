@@ -1,1 +1,82 @@
-{"test":true}
+{  "success": true,
+  "info": {
+    "code": 200,
+    "msg": "Request success"
+  },
+  "result": {
+    "category": [
+      {
+        "category_id": 1,
+        "name": "Video"
+      },
+      {
+        "category_id": 2,
+        "name": "Article"
+      }
+    ],
+    "topic": [
+      {
+        "topic_id": 1,
+        "name": "MentalHealth"
+      },
+      {
+        "topic_id": 2,
+        "name": "Fitness"
+      },
+      {
+       "topic_id": 3,
+       "name": "Exercises"
+      }
+    ],
+    "list": [
+      {
+        "item_id":101,
+        "category_id": 1,
+        "topic_id": [1,2,3],
+        "title_name": "Self Help - Mental Fitness",
+        "description":"Mental fitness is defined as a state of well-being and having a positive sense of how we feel, think, and act.",
+        "date": "2020-07-10T07:13:27+0000"
+      },
+      {
+        "item_id":103,
+        "category_id": 2,
+        "topic_id": [1,3],
+        "title_name": "Guide to boost immunity during Corona",
+        "description":"Covid – 19 or Coronavirus was declared as a global pandemic by the World Health Organization.",
+        "date": "2020-06-29T07:13:27+0000"
+      },
+      {
+        "item_id":104,
+        "category_id": 2,
+        "topic_id": [2,3],
+        "title_name": "Do's and Don'ts during Lockdown",
+        "description":"Keeping calm will help you sail through these tough times.",
+        "date": "2020-07-28T07:13:27+0000"
+      }, 
+      {
+        "item_id":106,
+        "category_id": 1,
+        "topic_id": [1,2],
+        "title_name": "Herd Immunity",
+        "description":"Herd immunity is a form of indirect protection from infectious disease.",
+        "date": "2020-07-02T07:13:27+0000"
+      },
+      {
+        "item_id":107,
+        "category_id": 1,
+        "topic_id": [1],
+        "title_name": "Vaccines for Covid-19",
+        "description":"Draft landscape of COVID-19 candidate vaccines.",
+        "date": "2020-06-06T07:13:27+0000"
+      },
+      {
+        "item_id":108,
+        "category_id": 2,
+        "topic_id": [2],
+        "title_name": "Simple exercises to follow during work from home schedules",
+        "description":"Some good choices are squats, tricep dips, lunges, wall push-ups, etc.",
+        "date": "2020-05-18T07:13:27+0000"
+      }  
+    ]
+  }
+}
